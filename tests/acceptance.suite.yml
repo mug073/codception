@@ -1,0 +1,9 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - \Helper\Acceptance
+        - WebDriver
+    config:
+        WebDriver:
+            browser: 'chrome'
+            url: 'http://demostore.x-cart.com'
